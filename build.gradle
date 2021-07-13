@@ -1,0 +1,14 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+ext {
+    scalaVersion = "2.10"
+    sparkVersion = "1.6.1"
+    connectorVersion = "1.6.0-M1"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {}
